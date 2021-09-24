@@ -873,6 +873,13 @@
 }
 
 ._35left.linkedin {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+._35left.hide {
   display: none;
 }
 
@@ -894,6 +901,11 @@
 .image-50 {
   width: 14px;
   min-width: 14px;
+}
+
+.image-50.m {
+  width: 15px;
+  min-width: 15px;
 }
 
 .logo-wrap {
@@ -1952,6 +1964,7 @@
   font-size: 24px;
   line-height: 28.8px;
   font-weight: 400;
+  text-align: center;
 }
 
 .button-3 {
